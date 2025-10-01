@@ -1,6 +1,7 @@
 """
 Upper level TOBIAS snake
 """
+# srun_snakemake --configfile config.yaml --use-conda -n >smk 
 
 import os
 import subprocess

@@ -3,6 +3,7 @@
 #-------------------------------------------------------------------------#
 
 data:
+  hESC: [processed/bam/hESC.bam]         #list of .bam-files
   SPG: [processed/bam/Spermatogonia.bam]  #list of .bam-files
   SPC: [processed/bam/Spermatocytes.bam]
   SPT: [processed/bam/Spermatids.bam]       #list of .bam-files
@@ -17,7 +18,7 @@ run_info:
               #https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/
   motifs: data/individual_motifs/*          #motifs (directory with files or individual files in MEME/JASPAR/PFM format)
   output: tobias             #output directory 
-  peaks: data/all_merged_annotated.bed  #optional; pre-calculated annotated peaks
+  # peaks: data/all_merged_annotated.bed  #optional; pre-calculated annotated peaks
   #peaks_header: data/merged_peaks_annotated_header.txt #optional; header for pre-calculated annotated peaks
 
 #Flags for parts of pipeline to include/exclude (all are True by default)

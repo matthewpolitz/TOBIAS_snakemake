@@ -51,8 +51,8 @@ rule atacorrect:
 	conda:
 		"../environments/tobias.yaml"
 	resources:
-		mem_mb = 5000,
-		time = "10:00:00" # Time in minutes (1 hour)
+		mem_mb = 50000,
+		time = "13:00:00" # Time in minutes (1 hour)
 
 	threads: 
 		10	#unless there are more than 99 cores, this rule will run on max threads
