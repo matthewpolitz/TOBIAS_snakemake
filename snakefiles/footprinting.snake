@@ -52,7 +52,7 @@ rule atacorrect:
 		"../environments/tobias.yaml"
 	resources:
 		mem_mb = 50000,
-		time = "13:00:00" # Time in minutes (1 hour)
+		time = "8:15:00" # Time in minutes (5 hours)
 
 	threads: 
 		10	#unless there are more than 99 cores, this rule will run on max threads
